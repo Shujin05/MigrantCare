@@ -93,5 +93,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: 'white',
     justifyContent: 'center', 
+    textAlign: "center", 
   },
 });

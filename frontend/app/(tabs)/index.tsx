@@ -24,34 +24,34 @@ export default function HomeScreen() {
       </View>
       <View style={styles.buttonContainer}>
         <LabelButton 
-          label="Legal" 
+          label="Legal Chatbot" 
           onPress={() => router.push("/")} 
           color="#a3c4bc"
-          imageSource={require('../../assets/images/logo.png')}
+          imageSource={require('../../assets/images/legal_icon.png')}
           imageSize={52}
           style={styles.button}
         />
         <LabelButton 
-          label="Financial" 
+          label="Loan Management" 
           onPress={() => router.push("/")} 
           color="#a3c4bc"
-          imageSource={require('../../assets/images/logo.png')}
+          imageSource={require('../../assets/images/financial_icon.png')}
           imageSize={52}
           style={styles.button}
         />
         <LabelButton 
-          label="XX" 
+          label="File Report" 
           onPress={() => router.push("/")} 
           color="#a3c4bc"
-          imageSource={require('../../assets/images/logo.png')}
+          imageSource={require('../../assets/images/document_icon.png')}
           imageSize={52}
           style={styles.button}
         />
         <LabelButton 
-          label="XX" 
+          label="Savings Planner" 
           onPress={() => router.push("/")} 
           color="#a3c4bc"
-          imageSource={require('../../assets/images/logo.png')}
+          imageSource={require('../../assets/images/savings_icon.png')}
           imageSize={52}
           style={styles.button}
         />

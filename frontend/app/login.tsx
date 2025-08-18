@@ -13,6 +13,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { ThemedText } from '@/components/ThemedText';
 import { Link, useRouter } from 'expo-router';
 import { TextInput } from 'react-native';
+import { Image } from 'react-native';
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -40,6 +41,10 @@ export default function Login() {
         style={styles.innerContainer}
       >
         <View style={styles.logoContainer}>
+          <Image
+            source={require('../assets/images/logo.png')}
+            style={styles.logo}
+          />
           <ThemedText type='title' style={styles.title}>
             Welcome Back to MigrantMate!
           </ThemedText>
@@ -61,9 +66,9 @@ export default function Login() {
             <TouchableOpacity
               disabled={loading}
               onPress={handleLogin}
-              style={styles.button}><ThemedText type="default">Log In</ThemedText>
+              style={styles.button}><ThemedText type="default" style={styles.buttonText}>Log In</ThemedText>
             </TouchableOpacity>
-            <ThemedText type="subtitle">
+            <ThemedText type="subtitle" style={styles.registerText}>
               Don't have an account?{" "}
               <Link href="/register" style={{ textDecorationLine: 'underline', fontWeight: 'bold' }}>
                 Register now
@@ -94,6 +99,7 @@ const styles = StyleSheet.create({
     fontSize: 28,
     fontWeight: 'bold',
     marginBottom: 8,
+    textAlign: 'center',
   },
   subtitle: {
     fontSize: 16,
@@ -114,4 +120,17 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     paddingVertical: 12,
   },
+  buttonText: {
+    textAlign: 'center',
+    color: "white",
+    fontWeight: 'bold',
+  }, 
+    logo: {
+    width: 120,
+    height: 120,
+    resizeMode: 'contain',
+  },
+  registerText: {
+    fontSize: 16, 
+  }
 });
