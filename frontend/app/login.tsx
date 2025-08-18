@@ -31,7 +31,7 @@ export default function Login() {
   }, []);
 
   const handleLogin = () => {
-    console.log("to be added")
+    console.log("loggin in!") // to add authentication feature 
   };
 
   return (
@@ -59,7 +59,7 @@ export default function Login() {
           <TextInput
             onChangeText={setPassword}
             value={password}
-            placeholder="Password"
+            placeholder="password"
           />
 
           <View style={styles.buttonGroup}>
@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
     color: "white",
     fontWeight: 'bold',
   }, 
-    logo: {
+  logo: {
     width: 120,
     height: 120,
     resizeMode: 'contain',

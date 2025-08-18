@@ -1,0 +1,23 @@
+import auth from '@react-native-firebase/auth';
+
+// Your Firebase configuration (for web, use environment variables or hardcode them)
+const firebaseConfig = {
+  apiKey: process.env.API_KEY,
+  authDomain: "migrant-care-agentic.firebaseapp.com",
+  projectId: "migrant-care-agentic",
+  storageBucket: "migrant-care-agentic.firebasestorage.app",
+  messagingSenderId: "680834327566",
+  appId: "1:680834327566:web:279207c01a4deab96c085f",
+  measurementId: "G-CP831FNVWW", 
+  databseURL: ""
+};
+
+// Initialize Firebase app only if not initialized
+import { firebase } from '@react-native-firebase/app';
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+} else {
+  firebase.app(); 
+}
+
+export { auth };
