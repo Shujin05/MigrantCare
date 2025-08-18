@@ -1,0 +1,96 @@
+import { Platform, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
+import { useState } from 'react';
+import { Alert } from 'react-native';
+import { Modal, Pressable } from 'react-native';
+import { useEffect } from 'react';
+import { View, Image } from 'react-native';
+import { Colors } from '@/constants/Colors';
+import { ThemedText } from '@/components/ThemedText';
+import LabelButton from '@/components/LabelButton';
+
+export default function HomeScreen() {
+  const router = useRouter();
+
+  return (
+    <SafeAreaView style={styles.uiContainer}>
+      <View style={styles.headerContainer}> 
+        <Image
+          source={require('../../assets/images/logo.png')}
+          style={styles.logo}
+        />
+        <ThemedText type="title" style={styles.heading}>MigrantCare</ThemedText>
+      </View>
+      <View style={styles.buttonContainer}>
+        <LabelButton 
+          label="Legal" 
+          onPress={() => router.push("/")} 
+          color="#a3c4bc"
+          imageSource={require('../../assets/images/logo.png')}
+          imageSize={52}
+          style={styles.button}
+        />
+        <LabelButton 
+          label="Financial" 
+          onPress={() => router.push("/")} 
+          color="#a3c4bc"
+          imageSource={require('../../assets/images/logo.png')}
+          imageSize={52}
+          style={styles.button}
+        />
+        <LabelButton 
+          label="XX" 
+          onPress={() => router.push("/")} 
+          color="#a3c4bc"
+          imageSource={require('../../assets/images/logo.png')}
+          imageSize={52}
+          style={styles.button}
+        />
+        <LabelButton 
+          label="XX" 
+          onPress={() => router.push("/")} 
+          color="#a3c4bc"
+          imageSource={require('../../assets/images/logo.png')}
+          imageSize={52}
+          style={styles.button}
+        />
+      </View>
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  uiContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: Colors.light.background,
+  },
+  heading:{
+    marginBottom: 6,
+  }, 
+  headerContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 16,
+  },
+  logo: {
+    width: 120,
+    height: 120,
+    resizeMode: 'contain',
+  },
+  buttonContainer: {
+    flexDirection: 'row', 
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    gap: 20,
+    paddingVertical: 5,
+  },
+  button: {
+    width: 140,
+    height: 140, 
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
