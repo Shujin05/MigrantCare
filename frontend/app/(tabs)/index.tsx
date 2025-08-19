@@ -25,7 +25,7 @@ export default function HomeScreen() {
       <View style={styles.buttonContainer}>
         <LabelButton 
           label="Legal Chatbot" 
-          onPress={() => router.push("/")} 
+          onPress={() => router.push("/legal")} 
           color="#a3c4bc"
           imageSource={require('../../assets/images/legal_icon.png')}
           imageSize={52}
@@ -88,8 +88,8 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
   },
   button: {
-    width: 140,
-    height: 140, 
+    width: 120,
+    height: 120, 
     justifyContent: 'center',
     alignItems: 'center',
   },

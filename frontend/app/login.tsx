@@ -14,6 +14,7 @@ import { ThemedText } from '@/components/ThemedText';
 import { Link, useRouter } from 'expo-router';
 import { TextInput } from 'react-native';
 import { Image } from 'react-native';
+import { Ionicons } from "@expo/vector-icons";
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -51,16 +52,26 @@ export default function Login() {
         </View>
 
         <View style={styles.form}>
+          <View style={styles.inputField}>
+          <Ionicons name="mail" size={28} color={Colors.light.tabIconDefault} />
           <TextInput
             onChangeText={setEmail}
             value={email}
             placeholder="email@address.com"
+            placeholderTextColor={Colors.light.text}
+            style={styles.input}
           />
+          </View>
+          <View style={styles.inputField}>
+          <Ionicons name="lock-closed" size={28} color={Colors.light.tabIconDefault} />
           <TextInput
             onChangeText={setPassword}
             value={password}
             placeholder="password"
+            placeholderTextColor={Colors.light.text}
+            style={styles.input}
           />
+          </View>
 
           <View style={styles.buttonGroup}>
             <TouchableOpacity
@@ -109,7 +120,12 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   input: {
-    borderBottomColor: '#ccc',
+    borderWidth: 2, 
+    borderColor: Colors.light.tabIconDefault,
+    borderRadius: 10, 
+    padding: 10, 
+    width: "100%", 
+    marginLeft: 10, 
   },
   buttonGroup: {
     marginTop: 24,
@@ -132,5 +148,9 @@ const styles = StyleSheet.create({
   },
   registerText: {
     fontSize: 16, 
-  }
+  }, 
+  inputField: {
+    flexDirection: 'row', 
+    width: '100%'
+  }, 
 });

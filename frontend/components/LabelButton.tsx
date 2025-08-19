@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
   button: {
     paddingVertical: 16,
     paddingHorizontal: 28,
-    borderRadius: 35,
+    borderRadius: 25,
     alignItems: 'center',
     justifyContent: 'center',
     elevation: 4,
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   label: {
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: 'bold',
     color: 'white',
     justifyContent: 'center', 
