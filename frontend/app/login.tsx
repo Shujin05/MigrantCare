@@ -15,6 +15,9 @@ import { Link, useRouter } from 'expo-router';
 import { TextInput } from 'react-native';
 import { Image } from 'react-native';
 import { Ionicons } from "@expo/vector-icons";
+import { auth } from '@/firebaseConfig';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -31,8 +34,14 @@ export default function Login() {
     return () => appStateListener.remove();
   }, []);
 
-  const handleLogin = () => {
-    console.log("loggin in!") // to add authentication feature 
+  const handleLogin = async () => {
+    try {
+      const user = await signInWithEmailAndPassword(auth, email, password)
+      router.push('/(tabs)')
+    } catch (error: any) {
+      console.log(error); 
+      alert("Sign in failed: " + error.message);
+    }
   };
 
   return (
@@ -82,7 +91,7 @@ export default function Login() {
             <ThemedText type="subtitle" style={styles.registerText}>
               Don't have an account?{" "}
               <Link href="/register" style={{ textDecorationLine: 'underline', fontWeight: 'bold' }}>
-                Register now
+                Register
               </Link>
             </ThemedText>
           </View>

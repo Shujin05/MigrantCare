@@ -15,6 +15,8 @@ import { Link, useRouter } from 'expo-router';
 import { TextInput } from 'react-native';
 import { Image } from 'react-native';
 import { Ionicons } from "@expo/vector-icons";
+import { auth } from '@/firebaseConfig';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 
 export default function Register() {
   const [email, setEmail] = useState('');
@@ -32,8 +34,18 @@ export default function Register() {
     return () => appStateListener.remove();
   }, []);
 
-  const handleRegister = () => {
-    console.log("loggin in!") // to add authentication feature 
+  const handleRegister = async () => {
+    if (password !== confirmPasword){
+        console.log("passwords do not match!")
+        return
+    }
+    try {
+        const user = await createUserWithEmailAndPassword(auth, email, password)
+    }
+    catch (error: any) {
+        console.log(error);
+        alert("sign in failed: " + error.message); 
+    }
   };
 
   return (
@@ -77,7 +89,7 @@ export default function Register() {
           <Ionicons name="lock-closed" size={28} color={Colors.light.background} />
           <TextInput
             onChangeText={setConfirmPassword}
-            value={password}
+            value={confirmPasword}
             placeholder="confirm password"
             placeholderTextColor={Colors.light.text}
             style={styles.input}
@@ -93,7 +105,7 @@ export default function Register() {
             <ThemedText type="subtitle" style={styles.registerText}>
               Already have an account?{" "}
               <Link href="/login" style={{ textDecorationLine: 'underline', fontWeight: 'bold' }}>
-                Log in now
+                Log in
               </Link>
             </ThemedText>
           </View>
