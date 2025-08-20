@@ -79,6 +79,7 @@ export default function Login() {
             placeholder="password"
             placeholderTextColor={Colors.light.text}
             style={styles.input}
+            secureTextEntry={true}
           />
           </View>
 

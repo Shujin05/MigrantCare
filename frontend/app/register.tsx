@@ -83,6 +83,7 @@ export default function Register() {
             placeholder="password"
             placeholderTextColor={Colors.light.text}
             style={styles.input}
+            secureTextEntry={true}
           />
           </View>
           <View style={styles.inputField}>
@@ -93,6 +94,7 @@ export default function Register() {
             placeholder="confirm password"
             placeholderTextColor={Colors.light.text}
             style={styles.input}
+            secureTextEntry={true}
           />
           </View>
 

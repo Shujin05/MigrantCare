@@ -9,12 +9,30 @@ import { View, Image } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import { ThemedText } from '@/components/ThemedText';
 import LabelButton from '@/components/LabelButton';
+import { Ionicons } from '@expo/vector-icons';
+import { signOut } from 'firebase/auth';
+import { auth } from '@/firebaseConfig';
 
 export default function HomeScreen() {
   const router = useRouter();
 
+  const handleSignOut = async () => {
+    try {
+      auth.signOut(); 
+      router.push("/login");
+    } catch (error: any) {
+      console.log(error); 
+      alert("Sign out failed: " + error.message);
+    }
+  }
+
   return (
     <SafeAreaView style={styles.uiContainer}>
+      <View style={styles.logoutButton}>
+        <TouchableOpacity onPress={handleSignOut}>
+            <Ionicons name="log-out-outline" size={28} color={Colors.light.text} />
+        </TouchableOpacity>
+      </View>
       <View style={styles.headerContainer}> 
         <Image
           source={require('../../assets/images/logo.png')}
@@ -93,4 +111,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  logoutButton: {
+    position: 'absolute', 
+    left: 20, 
+    top: 20, 
+  }
 });
