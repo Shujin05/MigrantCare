@@ -1,18 +1,15 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
-import { Platform } from 'react-native';
-import {Redirect, Stack} from 'expo-router'
-import { useAuth } from '@/context/authContext';
-import { useRouter } from 'expo-router';
-import { useEffect } from 'react';
-import { View } from 'react-native';
-import { ActivityIndicator } from 'react-native';
+import React, { useEffect } from "react";
+import { View, ActivityIndicator, Platform } from "react-native";
+import { Stack, useRouter } from "expo-router";
 
-import { HapticTab } from '@/components/HapticTab';
-import { IconSymbol } from '@/components/ui/IconSymbol';
-import TabBarBackground from '@/components/ui/TabBarBackground';
-import { Colors } from '@/constants/Colors';
-import { useColorScheme } from '@/hooks/useColorScheme';
+import { useAuth } from "@/context/authContext";
+import { useColorScheme } from "@/hooks/useColorScheme";
+import { FinanceProvider } from "../../context/FinanceContext"; // ✅ adjust path
+
+import { Colors } from "@/constants/Colors";
+import { HapticTab } from "@/components/HapticTab";
+import { IconSymbol } from "@/components/ui/IconSymbol";
+import TabBarBackground from "@/components/ui/TabBarBackground";
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -33,11 +30,14 @@ export default function TabLayout() {
     );
   }
 
-
   return (
-    <Stack>
-          <Stack.Screen name="index" options={{headerShown: false}} />
-          <Stack.Screen name="legal" options={{headerShown: false}} />
-    </Stack>
+    // ✅ wrap your navigation tree in FinanceProvider
+    <FinanceProvider>
+      <Stack>
+        <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="legal" options={{ headerShown: false }} />
+        <Stack.Screen name="finance" options={{ headerShown: false }} />
+      </Stack>
+    </FinanceProvider>
   );
 }
