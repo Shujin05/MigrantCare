@@ -67,7 +67,7 @@ export default function HomeScreen() {
         />
         <LabelButton 
           label="Savings Planner" 
-          onPress={() => router.push("/")} 
+          onPress={() => router.push("/(tabs)/finance")} 
           color="#a3c4bc"
           imageSource={require('../../assets/images/savings_icon.png')}
           imageSize={52}
