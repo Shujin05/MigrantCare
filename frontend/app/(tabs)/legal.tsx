@@ -21,21 +21,52 @@ export default function Legal() {
     setMessages([
       {
         _id: 1,
-        text: "Hello developer",
+        text: "Hi there! I'm your helpful legal chatbot, here to answer any legal-related queries you may have :)",
         createdAt: new Date(),
         user: {
           _id: 2,
-          name: "React Native", 
+          name: "Chatbot", 
         },
       },
     ]);
   }, []);
 
-  const onSend = useCallback((newMessages: IMessage[] = []) => {
-    setMessages((previousMessages) =>
-      GiftedChat.append(previousMessages, newMessages)
-    );
-  }, []);
+  const onSend = useCallback(async (newMessages: IMessage[] = []) => {
+  setMessages((previousMessages) =>
+    GiftedChat.append(previousMessages, newMessages)
+  );
+
+  const messageText = newMessages[0].text;
+
+  try {
+    const res = await fetch("http://localhost:8000/chat", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ message: messageText }),
+    });
+
+    const data = await res.json();
+    console.log(data)
+
+    // Append chatbot response
+    if (data.response) {
+      setMessages((previousMessages) =>
+        GiftedChat.append(previousMessages, [
+          {
+            _id: Math.random().toString(),
+            text: data.response,
+            createdAt: new Date(),
+            user: { _id: 2, name: "Chatbot" },
+          }
+        ])
+      );
+    }
+  } catch (err) {
+    console.error("Error sending message:", err);
+  }
+}, []);
 
   return (
     <View style={styles.container}>

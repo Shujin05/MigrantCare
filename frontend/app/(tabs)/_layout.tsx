@@ -1,4 +1,3 @@
-import { Tabs } from 'expo-router';
 import React from 'react';
 import { Platform } from 'react-native';
 import {Redirect, Stack} from 'expo-router'
@@ -7,11 +6,6 @@ import { useRouter } from 'expo-router';
 import { useEffect } from 'react';
 import { View } from 'react-native';
 import { ActivityIndicator } from 'react-native';
-
-import { HapticTab } from '@/components/HapticTab';
-import { IconSymbol } from '@/components/ui/IconSymbol';
-import TabBarBackground from '@/components/ui/TabBarBackground';
-import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
 export default function TabLayout() {
@@ -21,7 +15,7 @@ export default function TabLayout() {
 
   useEffect(() => {
     if (!loading && !user) {
-      router.replace("/login"); // redirect to login if not signed in
+      router.replace("/login");
     }
   }, [user, loading]);
 
@@ -32,7 +26,6 @@ export default function TabLayout() {
       </View>
     );
   }
-
 
   return (
     <Stack>

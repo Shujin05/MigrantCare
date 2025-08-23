@@ -1,0 +1,14 @@
+langchain
+langchain-community
+langchain-openai
+langchain-huggingface
+langchain-text-splitter
+
+faiss-cpu
+unstructured
+torch
+transformers
+sentence-transformers
+
+pydantic
+tiktoken

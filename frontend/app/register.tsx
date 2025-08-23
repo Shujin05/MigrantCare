@@ -41,6 +41,7 @@ export default function Register() {
     }
     try {
         const user = await createUserWithEmailAndPassword(auth, email, password)
+        router.push("/(tabs)")
     }
     catch (error: any) {
         console.log(error);
@@ -60,7 +61,7 @@ export default function Register() {
             style={styles.logo}
           />
           <ThemedText type='title' style={styles.title}>
-            Welcome to MigrantMate!
+            Welcome to MigrantCare!
           </ThemedText>
         </View>
 

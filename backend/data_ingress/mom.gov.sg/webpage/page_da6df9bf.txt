@@ -1,0 +1,6 @@
+https://www.mom.gov.sg/newsroom/press-replies/2025/0730-education-and-enforcement-go-hand-in-hand-to-ensure-cleanliness-in-public-spaces 
+{"code":"AUTH004","detail":"This account has reached its usage limit. Purchase
+a new subscription to continue using the
+service.","instance":"/v1","status":402,"title":"Usage exceeded
+(AUTH004)","type":"https://docs.zenrows.com/api-error-codes#AUTH004"}
+

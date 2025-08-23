@@ -56,7 +56,7 @@ export default function Login() {
             style={styles.logo}
           />
           <ThemedText type='title' style={styles.title}>
-            Welcome Back to MigrantMate!
+            Welcome Back to MigrantCare!
           </ThemedText>
         </View>
 

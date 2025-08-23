@@ -1,0 +1,192 @@
+https://www.mom.gov.sg/eservices/services/mymom-portal 
+## General capabilities
+
+ _myMOM_ Portal provides at-a-glance information of your workforce and work
+pass holders and lets you complete transactions faster.
+
+Some features include:
+
+  * **Charts**  
+See an overview of your company’s workforce and work pass information.
+
+  * **Customisable bookmarks**  
+Access your favourite eServices easily.
+
+  * **Manage user's access**  
+Manage EP eService account users' access and update their contact details.
+
+## Manage work passes and levy matters
+
+You can also use _myMOM_ Portal to:
+
+  * **Manage work pass and related transactions**
+    * (Employment Pass, S Pass and family passes) Apply, renew, appeal, issue, cancel, withdraw, or replace a pass.
+    * (Work Permit) Apply and appeal for a pass.
+  * **View lists of new and existing pass holders**   
+See each applicant’s pass status and relevant next steps in the application
+process.
+
+  * **View lists of work pass records**   
+Filter by pass type or date range.
+
+  * **Check and pay foreign worker levy bills and related transactions**   
+View the levy breakdown, download past levy bills, and apply for waivers and
+refunds.
+
+Get benchmarking insights to help with your workforce planning and hiring
+decisions.
+
+The enhanced tool includes workforce profile charts on [Diversity](/passes-
+and-permits/employment-pass/eligibility#c3-diversity) and [Local
+PMETs](/passes-and-permits/employment-pass/eligibility#c4-support-for-local-
+employment), to help you calculate your total [COMPASS](/passes-and-
+permits/employment-pass/eligibility#compass) score. Features include:
+
+  * **Diversity profile**   
+See the share of nationalities among your firm’s PMETs.
+
+  * **Local PMETs benchmarking**   
+Compare your firm’s local PMET share to other firms in your sector.
+
+  * **Salary benchmarking tool**   
+Compare median salary across occupations and industries.
+
+  * **Industry data on job benefits**   
+View benchmarks of non-monetary benefits offered within different industries,
+such as leave and flexi work arrangements.
+
+You can use _myMOM_ Portal if you are an employer, or employ foreign workers
+holding the following work passes:
+
+  * Employment Pass
+  * S Pass 
+  * Work Permit
+
+Before you can log in to _myMOM_ Portal:
+
+  * You need Corppass. [Apply for Corppass](https://www.corppass.gov.sg) if you don’t have one.
+  * Your **Corppass admin** or sub-admin must assign your Corppass account: 
+    1. Log in to [Corppass](https://www.corppass.gov.sg).
+    2. Go to the **eService Access** tab.
+    3. Choose **myMOM Portal** as one of your company’s eServices.
+    4. Assign **myMOM Portal** to your Corppass account.
+
+Refer to the guide on [how to assign myMOM
+Portal](/-/media/mom/documents/work-passes-and-permits/how-to-assign-mymom-
+portal.pdf) to your Corppass account.
+
+To view work pass-related data:
+
+To check if you have access:
+
+  1. Log in to your [Corppass](https://www.corppass.gov.sg) account.
+  2. Go to **Assigned eServices tab**. You should see **myMOM Portal** listed as one of your assigned eServices.
+
+If _myMOM_ Portal is not listed as one of your assigned eServices, please ask
+your **Corppass admin** or sub-admin to assign the eService to you.
+
+Please check with your Corppass admin if you have the access to the requested
+data, or if the data is available for your company.
+
+For work pass-related data, we perform additional checks on the EP eService
+and WP Online administrators and users to ensure that only eligible persons
+can perform work pass transactions.
+
+The administrator can:
+
+  * Grant access to the company’s employees as EP eService users.
+  * Terminate users’ access if they leave the company or no longer need access.
+
+You should appoint a second administrator. This will minimise any disruption
+to your business in case one of the administrators is not around or leaves the
+company.
+
+To prevent unauthorised transactions, follow these steps:
+
+1\. [Submit the authorisation form](/appoint-3rd-party-transactions) to
+authorise the service provider's staff.
+
+The form must be submitted by an authorised representative of the
+organisation, such as the organisation's appointed officer listed in ACRA.
+
+2\. Complete the request to appoint the service provider's staff as the
+administrator or user based on the relevant scenarios in the table below. The
+processing time is within 1 week.
+
+If organisation has | How to submit the request  
+---|---  
+No active online work pass account | **To appoint an administrator**  
+The organisation's authorised Corppass user can do so during registration for
+a new account in [Work Pass Account Registration
+(WPAR)](/eservices/services/work-pass-account-registration-wpar).  
+An active online work pass account but no active administrator | **To appoint an administrator**  
+The organisation's authorised Corppass user can [submit a request](/wpd-
+manage-online-account).  
+An active online work pass account and an existing active administrator | **To appoint an administrator or user**  
+The existing administrator can submit the request to appoint the staff using
+the following relevant eServices:  
+  
+If your EP eService administrator or user has left the company, or no longer
+needs access, your EP eService administrator must remove their access
+immediately.
+
+Otherwise, we may suspend your company’s EP eService account.
+
+To remove or appoint another administrator or user, your EP eService
+administrator must:
+
+  1. Log in to [_myMOM_ Portal](/eservices/services/mymom-portal)
+  2. Scroll down the ‘Work Passes’ page to the ‘Go to Quick Menu’ section.
+  3. At the menu page, under 'Action', scroll down the drop-down list and select ‘Manage user access/contact details’.
+
+Your request will be processed within 1 week.
+
+If you only have 1 EP eService administrator and the person has already left
+the company, you must submit a [request to change
+administrator](http://www.mom.gov.sg/wpd-manage-online-account) immediately.
+
+The information is based on the latest available aggregated data in our
+databases. There may be a time delay of about 3 months as the data is compiled
+and processed.
+
+You can sign up for an EP eService or WP Online account if you are:
+
+  * A business owner – you must be a Singapore citizen, Singapore permanent resident or an EntrePass holder.
+  * An employee of a registered business – you must be a Singapore citizen or Singapore permanent resident.
+  * A foreign employee of a registered business – you must hold an Employment Pass, Personalised Employment Pass or S Pass.
+
+To sign up for an account, you need:
+
+### How to sign up
+
+  1. Log in to [Work Pass Account Registration (WPAR)](/eservices/services/work-pass-account-registration-wpar) using your Singpass.
+  2. Follow the instructions on the screen.
+  3. Your application will be processed **within 1 week**. It may take longer if more documents are needed.
+  4. Log in to [check your application status](/eservices/services/work-pass-account-registration-wpar).
+
+### Your EP eService or WP Online administrator's duties
+
+During registration, you must appoint an EP eService or WP Online
+administrator. This person should preferably be the business owner, a director
+or a senior employee.
+
+The administrator can appoint another administrator. You can appoint up to 2
+administrators.
+
+You should appoint a second administrator. This will minimise any disruption
+to your business in case one of the administrators is not around or leaves the
+company.
+
+The administrator can create up to 4 user accounts.
+
+### Your Corppass administrator's duties
+
+Your Corppass administrator must also assign access to the EP eService or WP
+Online administrators and users for them to log in to EP eService or WP
+Online:
+
+  1. Log in to [Corppass](http://www.corppass.gov.sg) account.
+  2. Go to the **e-Service Access** tab.
+  3. Choose **EP eService** or **Work Permit Online (WPOL)** as one of your company’s eServices.
+  4. Assign **EP eService** or **Work Permit Online (WPOL)** to your Corppass account.
+

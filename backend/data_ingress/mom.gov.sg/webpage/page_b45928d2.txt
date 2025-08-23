@@ -1,0 +1,103 @@
+https://www.mom.gov.sg/transact-safely-and-securely 
+Best practices and tips on how to identify and report fake “MOM” websites or
+eServices, and SMS, phone or email scams.
+
+Scams could be in the form of unexpected phone calls or emails claiming to be
+from MOM. They may also ask for money, sensitive information or confidential
+personal information.
+
+## How to identify phone or email scams
+
+You may be able to spot some of these signs and avoid being a victim:
+
+  * The caller or sender is unable to identify themselves properly.
+  * You are not expecting an SMS, call or email from MOM.
+  * You are not aware of the transaction or interaction which is being referenced during the correspondence or conversation.
+
+### Useful resources to help you spot phone or email scams
+
+## How to identify fake "MOM" websites or phishing eServices
+
+The official MOM website is at <https://www.mom.gov.sg>. This is where we make
+available MOM-related information and eServices that enable you to perform
+your transactions with us safely and securely.
+
+## Fake websites may try to look official and mimic the official MOM
+websiteShow
+
+The following are examples of some fake websites that we found:
+
+Some **fake websites** that we found are:
+
+  * "http://www.mom-sg.org"
+  * "http://mom-gov.com"
+  * "http://ministryofmanpower.net"
+  * "http://wponlinemomgov.sg.com"
+
+These looked very similar to our official URL, but do not have
+**".mom.gov.sg"**.
+
+Some may even try to embed ".mom.gov.sg" into their URLs but their domain name
+won't end with ".mom.gov.sg". Here're some examples:
+
+  * "http://www.mom.gov.sg@211.239.150.170"
+  * "http://www.mom.gov.sg.official.com.net"
+
+These are fakes as their domain names **do not end with ".mom.gov.sg"**.
+
+**Official MOM websites and eServices' URLs** will always contain
+".mom.gov.sg". For example:
+
+  * "https://www.**mom.gov.sg** "
+  * "https://services.**mom.gov.sg** "
+  * "https://wponline.**mom.gov.sg** "
+
+## Beware of impersonation scams
+
+We may contact workers and employers via:
+
+  * Voice and video calls on employment, well-being or housing related issues.
+  * Email using an email address with the MOM domain, or using [PostmanSG](https://guide.postman.gov.sg/faqs/faq-recipients).
+
+MOM officers will
+
+**never**
+
+do these things over a phone call or email:
+
+  * Ask you to transfer money
+  * Ask you to disclose bank log-in details
+  * Ask you to install mobile apps from unofficial app stores
+  * Transfer your call to Police
+
+If you receive an SMS from the Government, make sure it is sent from the
+**gov.sg** SMS Sender ID, with [exceptions for National Service call-ups and
+emergency services](https://www.sms.gov.sg/exceptions). Do not click on URLs
+in unsolicited emails or text messages.
+
+Scammers may cite your personal information such as your name or NRIC number
+to appear legitimate. Do not automatically trust someone just because they
+have your personal information.
+
+Check what you have received is from MOM before you provide any information.  
+To check if you are unsure if something is a scam, you can:
+
+## How to report fake "MOM" websites or eServices, and SMS, phone or email
+scams
+
+To check if you are unsure if something is a scam or if you have encountered a
+potential scam, submit these information via the ScamShield app, or call the
+24/7 ScamShield Helpline on [1799](tel:1799):
+
+  * Any calls, emails or messages that you suspect to be scams
+  * Any websites that you suspect to be fake versions of the official MOM website
+
+If you have fallen for a scam and have incurred monetary loss, loss of
+personal information, or discovered that your online account has been hacked
+or compromised, take the following steps to protect yourself from further
+losses and help prevent other victims from being scammed:
+
+  * Contact your bank immediately if your bank account or credit card has been compromised. The bank can take immediate actions to prevent further monetary loss.
+  * File a [Police Report online](https://eservices1.police.gov.sg/phub/eservices/landingpage/police-report) or in person at the nearest Neighbourhood Police Centre or [Neighbourhood Police Post](https://www.sgdi.gov.sg/other-organisations/police-posts-manned-npps). For urgent assistance, call [999](tel:999).
+  * If your online account such as email or social media is compromised, promptly inform all your contacts and report the incident to the relevant email service provider or social media platform. If you still have access to your account, change your password immediately.
+
