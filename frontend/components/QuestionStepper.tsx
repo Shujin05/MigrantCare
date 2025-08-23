@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { View, Text, TextInput, Pressable } from "react-native";
 import { Profile, useFinance } from "../context/FinanceContext";
 
-/** Visual tag for “chips” (habits) */
 function Chip({
   selected,
   label,
