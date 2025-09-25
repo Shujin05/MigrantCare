@@ -1,4 +1,6 @@
-# SimplyAI-Agentic-AI-Hackathon'
+# Migrant Care
+
+submitted for SimplifyNext Agentic AI Hackathon
 
 <img width="440" height="819" alt="image" src="https://github.com/user-attachments/assets/b9bf88be-2bce-4e50-97e6-d0bfe730a318" />
 
