@@ -1,4 +1,4 @@
-<img width="457" height="821" alt="image" src="https://github.com/user-attachments/assets/5db5ca84-79bc-4e42-b6a8-67b8a9b6d743" /># Migrant Care
+# Migrant Care
 
 <img width="457" height="821" alt="image" src="https://github.com/user-attachments/assets/11aca131-3c2c-4d37-8986-4dfd8b029223" />
 
